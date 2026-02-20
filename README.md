@@ -1,39 +1,77 @@
-# MikuEye – osu! Beatmap Status Tracker
+<div align="center">
 
-MikuEye monitors osu! beatmaps and notifies you when their ranked status changes (e.g., Qualified → Ranked).  
-Perfect for camping maps to grab top ranks.
 
-![screenshot](https://i127.fastpic.org/thumb/2026/0220/c2/_8daadea034bae1a5614450013da67bc2.jpeg)
+# MikuEye
 
-## Features
+**osu! Beatmap status tracker**
 
-- Track any beatmap by ID or search in the built‑in Browse tab
-- Real‑time status updates (Graveyard → Pending → Qualified → Ranked/Loved)
-- Sound notifications on status changes
-- Full history log with filtering and export/import
-- Modern dark UI with multi‑select and keyboard shortcuts
+Monitor beatmaps.
 
-## Download
+[![Releases](https://img.shields.io/github/v/release/creicer/osu-beatmap-tracker-MikuEye?style=flat-square&color=ff69b4&label=latest)](https://github.com/creicer/osu-beatmap-tracker-MikuEye/releases)
+[![Python](https://img.shields.io/badge/python-3.10+-blue?style=flat-square)](https://www.python.org/)
 
-Grab the latest executable from the [Releases](https://github.com/your-username/osu-beatmap-tracker-MikuEye/releases) page.  
-Just download `MikuEye.exe` and run it.
+</div>
 
-## How to use
+---
 
-1. Get your osu! API v2 credentials from [osu.ppy.sh/home/account/edit](https://osu.ppy.sh/home/account/edit) (OAuth section)
-2. Enter them in **Settings**
-3. Add beatmaps via the **Browse** tab (search by artist/title/mapper/ID)
-4. Enable tracking on cards (click the ON/OFF badge or double click)
-5. Press **START TRACKING**
+MikuEye watches osu! beatmaps you care about and notifies you the moment their ranked status changes — for example when a Qualified map gets Ranked. Perfect for camping maps to grab top 1–8 ☻
 
-See the in‑app **Info** dialog for more details and keyboard shortcuts.
+<details>
+<summary>📸 Screenshots</summary>
+<br>
 
-## Building from source
+<img width="1920" alt="MikuEye main window" src="https://github.com/user-attachments/assets/36e653b6-8f1d-49de-b3a7-2b32ed6ba4a0" />
+<img width="1920" alt="MikuEye browse tab" src="https://github.com/user-attachments/assets/09468c24-043b-47d1-ba74-d1c3f2694a14" />
+<img width="1102" alt="MikuEye history" src="https://github.com/user-attachments/assets/949373b1-8a55-428b-8e92-8122e0fdaa78" />
 
-If you prefer to run from source:
+</details>
+
+---
+
+## ✨ Features
+
+- 🔍 **Browse & track** 
+- 🔔 **Sound notifications** 
+- 📋 **History log** 
+
+---
+
+## 📥 Download
+
+Grab the latest build from the [**Releases**](https://github.com/creicer/osu-beatmap-tracker-MikuEye/releases) page.
+
+> Download `MikuEye.exe` and run it — no Python required.
+
+---
+
+## 🚀 How to use
+
+1. Go to [osu.ppy.sh/home/account/edit](https://osu.ppy.sh/home/account/edit) → **OAuth** section
+2. Create a new application and copy your **Client ID** and **Client Secret**
+3. Paste them in MikuEye **Settings**
+4. Add beatmaps via the **Browse** tab
+5. Click the **ON/OFF** badge or double click a card to enable tracking
+6. Press **START TRACKING**
+
+> For keyboard shortcuts and more details, open the in app **Info** dialog.
+
+---
+
+## 🛠 Building from source
 
 ```bash
-git clone https://github.com/your-username/osu-beatmap-tracker-MikuEye.git
+git clone https://github.com/creicer/osu-beatmap-tracker-MikuEye.git
 cd osu-beatmap-tracker-MikuEye
 pip install -r requirements.txt
 python main.py
+```
+
+**Requirements:** Python 3.10+, see [`requirements.txt`](requirements.txt)
+
+---
+
+<div align="center">
+  <a href="https://github.com/creicer/osu-beatmap-tracker-MikuEye">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://osu.ppy.sh/users/12100958">osu!</a>
+</div>
