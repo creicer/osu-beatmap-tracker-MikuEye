@@ -3,7 +3,7 @@
 MikuEye monitors osu! beatmaps and notifies you when their ranked status changes (e.g., Qualified → Ranked).  
 Perfect for camping maps to grab top ranks.
 
-![screenshot](screenshot.png)
+![screenshot](https://i127.fastpic.org/thumb/2026/0220/c2/_8daadea034bae1a5614450013da67bc2.jpeg)
 
 ## Features
 
