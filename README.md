@@ -10,11 +10,12 @@ Monitor beatmaps.
 [![Releases](https://img.shields.io/github/v/release/creicer/osu-beatmap-tracker-MikuEye?style=flat-square&color=ff69b4&label=latest)](https://github.com/creicer/osu-beatmap-tracker-MikuEye/releases)
 [![Python](https://img.shields.io/badge/python-3.10+-blue?style=flat-square)](https://www.python.org/)
 
-</div>
 
 ---
 
 MikuEye watches osu! beatmaps you care about and notifies you the moment their ranked status changes — for example when a Qualified map gets Ranked. Perfect for camping maps to grab top 1–8 ☻
+
+</div>
 
 <details>
 <summary>📸 Screenshots</summary>
