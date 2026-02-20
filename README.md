@@ -72,7 +72,5 @@ python main.py
 ---
 
 <div align="center">
-  <a href="https://github.com/creicer/osu-beatmap-tracker-MikuEye">GitHub</a>
-  &nbsp;·&nbsp;
   <a href="https://osu.ppy.sh/users/12100958">osu!</a>
 </div>
