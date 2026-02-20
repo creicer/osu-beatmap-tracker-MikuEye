@@ -384,7 +384,7 @@ def _menu_style_base():
 
 
 def _lineedit_context_menu(widget: QLineEdit, pos, menu_style: str):
-    """standard cut/copy/paste/select-all context menu for any QLineEdit"""
+    """standard cut/copy/paste/select all context menu for any QLineEdit"""
     menu = QMenu(widget)
     menu.setStyleSheet(menu_style)
     cut_action        = menu.addAction("✂️  Cut")
@@ -4688,3 +4688,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
