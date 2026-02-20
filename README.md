@@ -13,7 +13,7 @@ Monitor beatmaps.
 
 ---
 
-MikuEye watches osu! beatmaps you care about and notifies you the moment their ranked status changes — for example when a Qualified map gets Ranked. Perfect for camping maps to grab top 1–8 ☻
+MikuEye watches osu! beatmaps you care about and notifies you the moment their ranked status changes — for example when a Qualified map gets Ranked.
 
 </div>
 
